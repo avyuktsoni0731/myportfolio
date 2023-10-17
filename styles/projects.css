@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    color: white;
+}
+
+.button-menu{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.buttons{
+    width: 100%;
+    height: 80px;
+}
+
+.buttons ul{
+    margin-left: 200px;
+    margin-right: 70px;
+    float: right;
+    margin-top: 27px;
+}
+
+.buttons ul li{
+    display:inline-block;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-size: 23px;
+    margin: 0px 10px;
+}
+
+#website-name{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 40px;
+    font-family: 'Arvo', serif;
+    font-size: 2.4rem;
+    color: #F0F0F0;
+    animation: fadeIn 1s;
+}
+
+.text{
+    text-decoration: 0;
+    font-size: 1.2rem;
+    color: #E4F1FF;
+    transition: color 0.7s ease;
+    position: relative;
+    opacity: 0.9;
+}
+
+.text:hover{
+    color: #00ADB5;
+    top: -3px;
+}
+
+.edited{
+    color: #8dded2;
+}
+
+
+@media screen and (max-width:540px) {
+    .button-menu{
+        height: 120px;
+    }
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
