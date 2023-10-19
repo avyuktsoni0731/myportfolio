@@ -126,6 +126,7 @@ nav ul li a:hover{
 
 .about-column-1 img{
     width: 100%;
+    border-radius: 50%;
 }
 
 .about-column-2{
