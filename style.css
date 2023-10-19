@@ -479,3 +479,56 @@ footer span a:hover{
         font-size: 1.1rem;
     }
 }
+
+@media only screen and (max-width: 930px) {
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    
+    .project-videos{
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .project-videos video{
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    .project-summary{
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+    
+    .project-summary h3{
+        color: #8dded2;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .project-summary p{
+        font-size: 1rem;
+        color: white;
+        margin-top: 15px;
+        width: 100%;
+        height: 100px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .skills{
+        grid-template-columns: repeat(1,1fr);
+        /* font-size: 1rem; */
+        padding: 1rem 20px;
+    }
+
+    .skill-desc{
+        font-size: 1.1rem;
+    }
+}
