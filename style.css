@@ -42,6 +42,7 @@ nav ul li{
     margin: 10px 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
+    animation: fadeIn 3s;
 }
 
 nav ul li a{
@@ -77,6 +78,7 @@ nav ul li a:hover{
     font-family: 'Arvo', serif;
     font-size: 2.4rem;
     color: #f0f0f0;
+    animation: fadeIn 1s;
 }
 
 .edited{
@@ -88,6 +90,7 @@ nav ul li a:hover{
     font-size: 2rem;
     /* font-family: 'Cairo Play', sans-serif; */
     font-family: 'Poppins', sans-serif;
+    animation: fadeIn 3s;
 }
 
 .header-text h1{
@@ -532,4 +535,11 @@ footer span a:hover{
     .skill-desc{
         font-size: 1.1rem;
     }
+}
+
+/* Key Frames */
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
